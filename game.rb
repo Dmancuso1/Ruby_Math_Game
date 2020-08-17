@@ -33,7 +33,11 @@ class Game
   end
 
   def get_winner
+    puts
+    puts "--------------------------------"
     puts "The winner is #{alive_players.first.name}!"
+    puts "--------------------------------"
+    puts
   end 
 
   def game_over
@@ -70,14 +74,3 @@ class Game
   end
 
 end
-
-
-
-
-
-# the game class is responsible for:
-# displaying math questions.
-# display game status
-# keeping track of rounds (rotates players)
-# Keeping track of player life to call game over once a player hits 0 life.
-# ASK FOR INPUT

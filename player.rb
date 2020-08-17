@@ -20,8 +20,8 @@ class Player
   end
 
   def wrong_answer
-    puts "WRONG! Loses a life. Ouch!"
     @life -= 1
+    print "WRONG! Loses a life. Ouch!"
   end
 
   def right_answer
